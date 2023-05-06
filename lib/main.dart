@@ -43,7 +43,7 @@ class MyHome extends StatelessWidget {
       skipTextButton: Text(
         'Skip',
         style: TextStyle(
-          fontSize: 16,
+          fontSize: 18,
           color: kDarkBlueColor,
           fontWeight: FontWeight.w600,
         ),
@@ -69,17 +69,20 @@ class MyHome extends StatelessWidget {
       headerBackgroundColor: Colors.white,
       pageBackgroundColor: Colors.white,
       background: [
-        Image.asset(
-          'assets/slide_1.jpg',
-          height: 400,
+        Image.network(
+          'https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?cs=srgb&dl=pexels-cameron-casey-1722183.jpg&fm=jpg',
+          height: 470,
+          width: 415,
         ),
-        Image.asset(
-          'assets/slide_2.jpg',
-          height: 400,
+        Image.network(
+          'https://w0.peakpx.com/wallpaper/371/728/HD-wallpaper-city-road-street-buildings-cars.jpg',
+          height: 475,
+          width: 420,
         ),
-        Image.asset(
-          'assets/slide_3.jpg',
-          height: 400,
+        Image.network(
+          'https://w0.peakpx.com/wallpaper/898/802/HD-wallpaper-new-york-city-sky-sunset-clouds-portrait-display-building-empire-state-building-city-lights-skyscraper-one-world-trade-center.jpg',
+          height: 470,
+          width: 420,
         ),
       ],
       speed: 1.8,
@@ -108,11 +111,11 @@ class MyHome extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'to find the perfect looking Onboarding for your app?',
+                'to find the perfect flat for rent ?',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black26,
-                  fontSize: 18.0,
+                  color: Colors.black,
+                  fontSize: 18.5,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -131,7 +134,7 @@ class MyHome extends StatelessWidget {
                 height: 480,
               ),
               Text(
-                'You’ve reached your destination.',
+                'One more slide to your destination.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: kDarkBlueColor,
@@ -141,15 +144,6 @@ class MyHome extends StatelessWidget {
               ),
               const SizedBox(
                 height: 20,
-              ),
-              const Text(
-                'Sliding with animation',
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Colors.black26,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w600,
-                ),
               ),
             ],
           ),
@@ -175,14 +169,14 @@ class MyHome extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 20,
+                height: 10.5,
               ),
               const Text(
-                'Where everything is possible and customize your onboarding.',
+                'Welcome to My Rent.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  color: Colors.black26,
-                  fontSize: 18.0,
+                  color: Colors.black,
+                  fontSize: 18.5,
                   fontWeight: FontWeight.w600,
                 ),
               ),
